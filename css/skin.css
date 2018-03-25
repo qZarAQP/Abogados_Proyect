@@ -138,7 +138,7 @@ h6{
 .side-navigation-wrapper .widget-title, 
 .side-navigation-wrapper .widget-title a{
 	font-size: 1.4rem;
-	color: #212325;
+	color: #CE7712;
 }
 .overlay-navigation-wrapper .widget-title, 
 .overlay-navigation-wrapper .widget-title a{
@@ -264,7 +264,7 @@ p a,
 .header .dropdown-list .recuperate-password:hover,
 .dropdown-list:not(.custom-content) li a.active,
 .dropdown-list:not(.custom-content) li a:hover{
-	color: #6773f1;
+	color: #CE7712;
 }
 a[class*="icon-"]:hover{
 	text-decoration: none;
@@ -929,12 +929,12 @@ body,
 
 /* Mobile Header Styles & Breakpoints */
 .mobile .header .header-inner{
-	background-color: #fff;
+	background-color: #000000;
 	border-top: none;
 }
 .mobile .header .header-inner{
 	border-bottom: 1px solid #eee;
-}
+}s
 .mobile .header + .content{
 	padding-top: 0;
 }
@@ -1097,7 +1097,7 @@ body,
 @media only screen and (min-width: 960px){
 	.header-transparent .navigation > ul > li > a:not(.button){
 		color: #fff;
-		opacity: 0.6;
+		opacity: 1;
 	}
 	.header-transparent .navigation > ul > li > a:not(.button):hover{
 		color: #fff;
@@ -1144,7 +1144,7 @@ body,
 .navigation .sub-menu,
 .navigation .mega-sub-menu,
 .navigation .dropdown-list{
-	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 6px 20px rgba(206, 119, 18, 0.08);
 	border-radius: 0.3rem;
 }
 .navigation .sub-menu,
@@ -1283,14 +1283,14 @@ body,
 .navigation .mega-sub-menu:not(.custom-content) ul li:hover > a,
 .navigation .dropdown-list:not(.custom-content) li:hover a{
 	background-color: transparent;
-	border-left: 3px solid #7693f4;
+	border-left: 3px solid #CE7712;
 }
 .navigation .sub-menu li > a:not(.button):hover,
 .navigation .mega-sub-menu ul li > a:not(.button):hover,
 .navigation .dropdown-list li > a:not(.button):hover,
 .navigation .cart-overview .product-title:hover,
 .navigation .cart-overview .product-remove:hover{
-	color: #212325;
+	color: #CE7712;
 }
 .navigation .sub-menu li.current > a:not(.button),
 .navigation .dropdown-list li.current > a:not(.button),
@@ -1298,7 +1298,7 @@ body,
 .navigation .mega-sub-menu li.current > a:not(.button),
 .navigation .mega-sub-menu > li >a:not(.button):hover,
 .navigation .mega-sub-menu li.current > a:not(.button):hover{
-	color: #212325;
+	color: #CE7712;
 }
 
 /* Mega Menu Position */
@@ -1586,7 +1586,7 @@ body,
 	width: 12rem;
 }
 .side-navigation-wrapper{
-	background-color: #fff;
+	background-color: #ccc;
 	box-shadow: none !important;
 	border-right: 1px solid #ecedf2;
 }
@@ -1652,10 +1652,10 @@ body,
 	text-transform: none;
 	font-size: 1.4rem;
 	font-weight: 400;
-	color: #959faa;
+	color: #CE7712;
 }
 .side-navigation .sub-menu a:hover{
-	color: #212325;
+	color: #CE7712;
 }
 .side-navigation .sub-menu li:first-child{
 	padding-top: 1rem;
