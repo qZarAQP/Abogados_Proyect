@@ -633,8 +633,8 @@ body,
 }
 .bkg-hover-theme:hover,
 .bkg-focus-theme:focus{ /* #MOD */
-	background-color: #717dfb;
-	border-color: #717dfb;
+	background-color: #CE7712;
+	border-color: #fff;
 }
 .border-theme{
 	border-color: #6773f1;
