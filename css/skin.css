@@ -897,6 +897,12 @@ body,
 	/*border-bottom: 1px solid #eee;*/
 }
 
+.navigation{
+	padding-left: 100px;
+
+
+}
+
 /* Transparent Header Initial & Active Nav Colors */
 .header-transparent .header-inner{
 	background-color: transparent;
