@@ -4,7 +4,7 @@
     margin: 70px auto;
   }
   
-  #gallery img {
+  #gallery .imgAbogado {
     width: 400px;
     height: 300px;
     -webkit-transition-duration: 0.6s; /*Webkit: animation duration*/
@@ -16,7 +16,7 @@
     position: relative; /*solve the problem with z-index in Chrome*/
   }
   
-  #gallery img:hover { 
+  #gallery .imgAbogado:hover { 
     -webkit-transform: scale( 1.5 ); /*Webkit: increase size to 1.5x*/
     -moz-transform: scale( 1.5 ); /*Mozilla: scaling*/
     -o-transform: scale( 1.5 ); /*Opera: scaling*/
@@ -66,4 +66,13 @@ p {
 
 .equipo{
     margin-top: 50px;
+}
+
+a{
+    color: #fff;
+}
+
+.blank{
+    background: color;
+    color: #fff;
 }

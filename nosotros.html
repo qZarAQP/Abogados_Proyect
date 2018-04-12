@@ -20,11 +20,13 @@
 
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
-	
+    
+    
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
     <link rel="stylesheet" href="css/skin.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/modal.css" />
 
 
 	<!--[if lt IE 9]>
@@ -569,47 +571,246 @@
             <div id="gallery">
                 <h2>Nuestro Equipo</h2>
                 <br>
-                <p class="centrado">Sed ut perspiciatis unde omnis iste natus error
-                    sit voluptatem accusantium doloromque
+                <p class="centrado">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloromque
                 </p>
                 <div class="row equipo">
                     <div class="column width-3">
-                       
-                            <img alt="" src="images/blog/bio-avatar-3AB.png" />
-                            <div class="descripcion">
-                                <h3>Jose Calderon</h3>
-                                <p class="centrado">Planificacion Tributaria</p>
-                            
+                        <div class="imagen">
+                            <img class="imgAbogado" alt="" src="images/blog/bio-avatar-3AB.png" />
+                        </div>
+                        <div class="descripcion">
+                            <h3>Jose Calderon</h3>
+                            <p class="centrado">Planificacion Tributaria
+                                <button id="modalBtn" class="button">
+                                    <strong>+</strong>
+                                </button>
+                            </p>
+            
+                        </div>
+            
+                        <div id="simpleModal" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="closeBtn">&times;</span>
+                                    <h2>Jose Dinner Paredes</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="column width-5">
+                                            <img src="images/blog/bio-avatar-3AB.png" alt="">
+            
+                                        </div>
+                                        <div class="column width-7">
+                                            <p>
+                                                <strong>Areas de practica:</strong>
+                                            </p>
+                                            <p>Tributacion, Aduanas y Comercio Exterior y Coorporativo</p>
+                                            <br>
+                                            <p>
+                                                <strong>Eduacion</strong>
+                                            </p>
+                                            <p>-Pontificia Universidad Catolica del Perú, 1967.</p>
+                                            <p>-Escuela de Graduacion de la Pontificia Universidad Catolica del Perú, Magister en Derecho
+                                                Civil, 1989.
+                                            </p>
+                                            <br>
+                                            <p>
+                                                <strong>Trayectoria:</strong>
+                                            </p>
+                                            <p>-Hernandez & Cia Abogados (1992-A la fecha)</p>
+                                            <p>-Estudio Rubio Leguía, Normand, Hernandez y Asociados (1980-1991).</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="button">
+                                        <strong>
+                                            <a href="abogado1.html">+</a>
+                                        </strong>
+                                    </button>
+                                </div>
                             </div>
-                            <a href="abogado1.html">Mas</a>
-                    </div>
-                    <div class="column width-3">
-                        <img alt="" src="images/blog/bio-avatar-3AB.png" />
-                        <div class="descripcion">
-                            <h3>Jose Calderon</h3>
-                            <p class="centrado">Planificacion Tributaria</p>
                         </div>
-                        <a href="abogado2.html">Mas</a>
                     </div>
-                    <div class="column width-3">
-                        <img alt="" src="images/blog/bio-avatar-3AB.png" />
-                        <div class="descripcion">
-                            <h3>Jose Calderon</h3>
-                            <p class="centrado">Planificacion Tributaria</p>
-                        </div>
-                        <a href="abogado3.html">Mas</a>
-                    </div>
-                    <div class="column width-3">
-                        <img alt="" src="images/blog/bio-avatar-3AB.png" />
-                        <div class="descripcion">
-                            <h3>Jose Calderon</h3>
-                            <p class="centrado">Planificacion Tributaria</p>
-                        </div>
-                        <a href="abogado4.html">Mas</a>
-                    </div>
-
                     
-                </div>
+                        <div class="column width-3">
+                            <div class="imagen">
+                                <img class="imgAbogado" alt="" src="images/blog/bio-avatar-3AB.png" />
+                            </div>
+                            <div class="descripcion">
+                                <h3>Jose Calderon </h3>
+                                <p class="centrado">Planificacion Tributaria
+                                    <button id="modalBtn1" class="button">
+                                        <strong>+</strong>
+                                    </button>
+                                </p>
+            
+                            </div>
+            
+                            <div id="simpleModal1" class="modal">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="closeBtn1">&times;</span>
+                                        <h2>Jose Dinner Paredes 1</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="column width-5">
+                                                <img src="images/blog/bio-avatar-3AB.png" alt="">
+            
+                                            </div>
+                                            <div class="column width-7">
+                                                <p>
+                                                    <strong>Areas de practica:</strong>
+                                                </p>
+                                                <p>Tributacion, Aduanas y Comercio Exterior y Coorporativo</p>
+                                                <br>
+                                                <p>
+                                                    <strong>Eduacion</strong>
+                                                </p>
+                                                <p>-Pontificia Universidad Catolica del Perú, 1967.</p>
+                                                <p>-Escuela de Graduacion de la Pontificia Universidad Catolica del Perú, Magister en Derecho
+                                                    Civil, 1989.
+                                                </p>
+                                                <br>
+                                                <p>
+                                                    <strong>Trayectoria:</strong>
+                                                </p>
+                                                <p>-Hernandez & Cia Abogados (1992-A la fecha)</p>
+                                                <p>-Estudio Rubio Leguía, Normand, Hernandez y Asociados (1980-1991).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="button">
+                                            <strong>
+                                                <a href="abogado2.html">+</a>
+                                            </strong>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="column width-3">
+                                <div class="imagen">
+                                    <img class="imgAbogado" alt="" src="images/blog/bio-avatar-3AB.png" />
+                                </div>
+                                <div class="descripcion">
+                                    <h3>Jose Calderon</h3>
+                                    <p class="centrado">Planificacion Tributaria
+                                        <button id="modalBtn2" class="button">
+                                            <strong>+</strong>
+                                        </button>
+                                    </p>
+            
+                                </div>
+            
+                                <div id="simpleModal2" class="modal">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <span class="closeBtn2">&times;</span>
+                                            <h2>Jose Dinner Paredes 2</h2>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="column width-5">
+                                                    <img src="images/blog/bio-avatar-3AB.png" alt="">
+            
+                                                </div>
+                                                <div class="column width-7">
+                                                    <p>
+                                                        <strong>Areas de practica:</strong>
+                                                    </p>
+                                                    <p>Tributacion, Aduanas y Comercio Exterior y Coorporativo</p>
+                                                    <br>
+                                                    <p>
+                                                        <strong>Eduacion</strong>
+                                                    </p>
+                                                    <p>-Pontificia Universidad Catolica del Perú, 1967.</p>
+                                                    <p>-Escuela de Graduacion de la Pontificia Universidad Catolica del Perú, Magister en
+                                                        Derecho Civil, 1989.
+                                                    </p>
+                                                    <br>
+                                                    <p>
+                                                        <strong>Trayectoria:</strong>
+                                                    </p>
+                                                    <p>-Hernandez & Cia Abogados (1992-A la fecha)</p>
+                                                    <p>-Estudio Rubio Leguía, Normand, Hernandez y Asociados (1980-1991).</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="button">
+                                                <strong>
+                                                    <a href="abogado3.html">+</a>
+                                                </strong>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="column width-3">
+                                    <div class="imagen">
+                                        <img class="imgAbogado" alt="" src="images/blog/bio-avatar-3AB.png" />
+                                    </div>
+                                    <div class="descripcion">
+                                        <h3>Jose Calderon</h3>
+                                        <p class="centrado">Planificacion Tributaria
+                                            <button id="modalBtn3" class="button">
+                                                <strong>+</strong>
+                                            </button>
+                                        </p>
+            
+                                    </div>
+            
+                                    <div id="simpleModal3" class="modal">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <span class="closeBtn3">&times;</span>
+                                                <h2>Jose Dinner Paredes 3</h2>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="column width-5">
+                                                        <img src="images/blog/bio-avatar-3AB.png" alt="">
+            
+                                                    </div>
+                                                    <div class="column width-7">
+                                                        <p>
+                                                            <strong>Areas de practica:</strong>
+                                                        </p>
+                                                        <p>Tributacion, Aduanas y Comercio Exterior y Coorporativo</p>
+                                                        <br>
+                                                        <p>
+                                                            <strong>Eduacion</strong>
+                                                        </p>
+                                                        <p>-Pontificia Universidad Catolica del Perú, 1967.</p>
+                                                        <p>-Escuela de Graduacion de la Pontificia Universidad Catolica del Perú, Magister
+                                                            en Derecho Civil, 1989.
+                                                        </p>
+                                                        <br>
+                                                        <p>
+                                                            <strong>Trayectoria:</strong>
+                                                        </p>
+                                                        <p>-Hernandez & Cia Abogados (1992-A la fecha)</p>
+                                                        <p>-Estudio Rubio Leguía, Normand, Hernandez y Asociados (1980-1991).</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="button">
+                                                    <strong>
+                                                        <a href="abogado4.html">+</a>
+                                                    </strong>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            
             </div>
 			<!-- Content End -->
 
@@ -690,6 +891,7 @@
 	<!-- Js -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3JCAhNj6tVAO_LSb8M-AzMlidiT-RPAs"></script>
-	<script src="js/timber.master.min.js"></script>
+    <script src="js/timber.master.min.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
