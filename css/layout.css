@@ -853,7 +853,7 @@ ul.slimmenu.collapsed li > ul {
 }
 
 .about-wrap{ 
-	position:relative;
+	position:center;
 	width:100%;
 }
 .about-wrap h5{ 
@@ -864,13 +864,13 @@ ul.slimmenu.collapsed li > ul {
 	text-align:center;
 }
 .about-wrap .about-icon{ 
-	position:relative;
+	position:center;
 	text-align:center;
 	margin:0 auto;
-	width: 48px;
-	height: 48px;
+	width: 70px;
+	height: 70px;
 	z-index:3;
-	padding-bottom:20px;
+	padding-bottom:30px;
 }
 svg * {
   fill: none;
