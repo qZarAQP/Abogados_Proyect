@@ -877,6 +877,17 @@ svg * {
   stroke: currentColor;
 }
 
+
+.about-wrap .about-images{ 
+    position:center;
+    text-align:center;
+    margin:0 auto;
+    width: 70px;
+    height: 70px;
+    z-index:3;
+    padding-bottom:30px;
+}
+
 /* #Quotes
 ================================================== */ 
 
